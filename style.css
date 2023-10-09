@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(https://i.pinimg.com/564x/2a/39/20/2a392081e637c755492d06faf5daeb26.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffffdc;
+}
+form {
+    width: 360px;
+    min-height: 450px;
+    height: 400px;
+    border-radius: 25px;
+    margin: 2% auto;
+    padding: 3%;
+   background-color: #f7141427;
+   position: relative;
+   top: 55px;
+   left: 20px;
+}   
+
+
+.input-item {
+    background: #ffffff43;
+    color: #000000;
+}
+input{
+    width: 230px;
+    height: 35px;
+    border-radius:5px;
+    border: none;
+    outline: none;
+    text-align:center;
+    background-color: #ffffff7e;
+    
+    
+}
+.pass{
+    position: relative;
+    top: 80px;
+    left: 25px;
+}
+.email{
+    position: relative;
+    top: 42px;
+    left: 25px;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    color: #ffffff;
+}
+.btn-fp{
+    position: relative;
+    top: 132px;
+    left: 8px;
+}
+.btn-sub{
+    position: relative;
+    top: 113px;
+    left: 220px;
+}
+* {
+    box-sizing: border-box;
+  }
+  .but{
+    background-color: #ffffff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: -20px;
+    width: 190px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+  }
+  .coolBeans {
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 0.5rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+  }
+  .coolBeans::after {
+    background-color: rgba(255, 0, 0, 0.782);
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+  }
+  .coolBeans:hover::after {
+    transform: translate(0, 0);
+  }
+  .coolBeans:hover {
+    border: 2px solid transparent;
+    color: #ffffff;
+    transform: scale(1.05);
+    will-change: transform;
+  }
+  
